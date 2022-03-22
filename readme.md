@@ -1,4 +1,4 @@
-# Send SMS with an Alpha Numeric Sender
+# Send SMS with an Alphanumeric Sender using Twilio Programmable SMS
 
 To run this sample:
 1. Configure the project using user-secrets
