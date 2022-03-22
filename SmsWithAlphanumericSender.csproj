@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <UserSecretsId>5bc8ddc9-2ed7-4480-8efc-9fb7d85e5efa</UserSecretsId>
+    <AssemblyName>SmsWithAlphanumericSender</AssemblyName>
+    <RootNamespace>SmsWithAlphanumericSender</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.Hosting" Version="6.0.1" />
+    <PackageReference Include="Twilio" Version="5.72.1" />
+  </ItemGroup>
+
+</Project>
